@@ -1,0 +1,382 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+
+body {
+    color: #333;
+	 font-family: Oswald !important;    
+    font-weight: 400;
+    font-size: 15px;
+}
+
+span, a{
+font-family: Oswald !important;
+text-decoration:none;
+}
+p, ul, li, td, dl, dt, div, a, .normal {
+
+    font-weight: 400;
+    font-size: 12px;
+	list-style-type: none !important;
+}
+p, li {   
+	font-family: Raleway !important;
+	 
+}
+h1, h2, h3, h4, h5, h6 {   
+    font-weight: 400;
+	font-family: Raleway !important;
+}
+
+ 
+select{
+	cursor:pointer;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	border:1px solid lightgrey;    
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none; 
+min-width:200px;
+color:lightgrey !important;
+
+	
+}
+
+
+.color_select select {
+	color:black !important;
+	border:1px solid #BEBEBE;
+}
+
+select:hover{
+	box-shadow: 2px 2px 5px #aaa;
+}
+
+
+/*---- menu_header ----*/
+
+
+.menu_header{
+float:left;
+width:18%;
+margin: 0% 0% 0% 0%;
+  padding: 2% 0% 0% 1%;
+height:100%;
+max-height:550px;
+min-height:300px;
+font-size:8px !important;
+font-family: Raleway !important;
+overflow:none;
+  border-left: 1px solid #E1E1E1;
+  text-align:inherit;
+}
+
+
+.menu_header span{ 
+	font-family: Raleway !important;
+	font-size:11px !important;
+}
+
+
+#pdf_50_q {
+  font-size: 11px;
+  color: red;  
+}
+
+
+#button_pdf_50_q a{
+
+ font-size:11px;
+ color:red;
+}
+
+
+/*----- Tabs -----*/
+.tabs {	
+float:left;
+width:80%;
+margin:0px;
+padding:0px;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+	
+	  .tab-links  {    
+	float:left;	
+	background-color:white;
+	width:100%;
+	  padding: 2% 0% 4% 0%;
+	opacity:0.9;
+	margin:0% 0% 0% 0%;
+	border-bottom:1px solid #E1E1E1;
+	box-shadow: 0 5px 5px -5px #333;
+	
+	
+	
+    }
+	
+ 
+    .tab-links li {
+       margin: 1% 0% 0% 3%;
+  float: left;
+  list-style: none;
+  opacity: 1 !important;
+		
+    }
+ 
+	.tab-links a {
+		padding:9px 15px;
+		display:inline-block;
+		border-radius:3px 3px 0px 0px;
+		background: #006a4e;
+		font-size:12px;		
+		color:#fff;
+		transition:all linear 0.15s;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	
+
+	.tab-links a:hover {
+		background:#a7cce5;
+		text-decoration:none;
+	}
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+		float:left;
+		width:100%;
+		margin:0px;
+		padding:0px;
+height:550px;
+overflow:auto;		
+    }
+ 
+	.tab {
+		display:none;
+	}
+
+	.tab.active {
+		display:block;
+	}
+	
+	.title_page {
+		color: #16c1f3;
+		font-size: 28px;
+		text-transform:uppercase;
+		margin-bottom:5%;
+	}
+	
+	.container-question {
+	border-bottom:1px solid #E1E1E1;
+	float:left;
+	padding: 0% 1%;
+	margin-bottom: 5%;
+	width: 98%;	
+	margin-left: 0px;
+	}
+	
+	
+	#question_color p span{
+		text-align:right !important;
+	
+	}
+	.container-question span{
+font-size:15px !important;
+font-family: Raleway !important;
+
+	}
+	
+	
+	.container-texte {
+		padding: 4% 1% 0% 1%;
+		margin-bottom: 5%;
+		width:90%;
+		margin-left: 0%;
+		line-height: 1.8em;
+		font-family: Raleway !important;
+	}
+	
+	.container-question p li {
+	width: 100%;
+	}
+
+	
+	.color_number_question {
+		background-color:#006a4e;color:white;
+	}
+	.color_number_question_pas_y {
+	background-color: lightblue;color:white;
+	}
+	
+	
+	.answer_question {
+	color:black;
+	
+	}
+	
+	.answer_question_pas_y {
+	
+	color:lightgrey;
+	}
+	
+	
+	.number_question {
+		
+		font-size: 22px;
+		margin: 5% 0%;padding:0.5%;
+	}
+	
+
+	
+	
+	.moreinfos_class{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos_class_pas_y
+	{
+	cursor:pointer;float:right;	
+	}
+	
+	
+	.moreinfos2{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos3{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos4{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos5{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos6{
+	cursor:pointer;float:right;		
+	}
+	.moreinfos7{
+	cursor:pointer;float:right;		
+	}
+	
+	.moreinfos_class b {
+		color:#006a4e;		
+	}
+	.moreinfos_class b:hover {
+		color:#79b8ed;	
+	}
+	
+	.moreinfos_class_pas_y b {
+		color:lightgrey;		
+	}
+	.moreinfos_class_pas_y b:hover {			
+	}
+	
+ .syco_tooltip p{
+	max-height:10px !important;
+ }
+
+.white-popup {
+  position:static;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12pt;
+}
+
+/* progress bar */
+.percent{display:block;color:#fff;font-size:12px;margin-left:5px;height:auto;position:absolute;top:2px}.triangle_right{width:0;height:0;border-style:solid;border-width:7.5px 10px 7.5px 0;border-color:transparent rgba(255,255,255,.3) transparent transparent;display:block;position:absolute;left:-10px;top:10px}.triangle_left{width:0;height:0;border-style:solid;border-width:7.5px 0 7.5px 10px;border-color:transparent transparent transparent rgba(255,255,255,.3);display:block;position:absolute;right:-10px;top:10px}.tooltip p{color:white;margin-bottom:10px;font-size:14px}.percentagebarinner{width:0;background:#FFF;height:20px;background:#6ea5e1;position:relative}.percentagebar{width:100%;position:relative;background:#FFF;height:20px}
+
+
+
+.back-to-top {
+
+	display:none !important;
+}
+
+
+#dialog{
+	display:none;
+}
+
+
+.ui-widget-content p {
+text-align:center;
+	  
+}
+
+.ui-widget-content a {
+	  text-decoration: none;
+	  border:0px;
+	  font-family: Raleway !important;
+	  font-weight:bold;	  
+}
+.ui-dialog .ui-dialog-title {
+	font-family: Raleway !important;
+	 font-weight:bold;	 
+}
+
+#back-top {
+	display:none;
+}
+/*----- table cc----- */
+
+.white-popup {
+  position:static;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12pt;
+}
+
+
+#result{
+position:fixed;
+right:33px;
+top: 27px;
+display: inline-block;
+font-family:'Oswald', 'sans-serif';
+color:green;
+font-size:12pt;
+-webkit-animation: ani 1s forwards;
+}
+
+
+#exttable,th
+{
+font-size: 8pt;
+border: 1px solid blue;
+color:#006a4e;
+}
+#exttable tbody td
+{
+font-size: 8pt;
+font-family:'PT Sans', sans-serif;
+
+}
+#toprow{background-color:#006a4e;}
+
+th{align:left);
